@@ -1,0 +1,249 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Henrique's Library</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+
+<body class="home">
+    <div id="loading-screen">
+
+        <h1>HgS Library</h1>
+
+        <p>Carregando biblioteca...</p>
+
+    </div>
+    <header>
+        <h1>HgS Library</h1>
+        <nav>
+            <a href="#" onclick="fecharDetalhes(); mostrar('games'); return false;">Games</a>
+            <a href="#" onclick="fecharDetalhes(); mostrar('filmes'); return false;">Filmes</a>
+            <a href="#" onclick="fecharDetalhes(); mostrar('series'); return false;">Séries</a>
+            <a href="#" onclick="fecharDetalhes(); mostrar('livros'); return false;">Livros</a>
+        </nav>
+    </header>
+
+    <h3 id="feedback"></h3>
+    <div id="detalhes" style="display: none;">
+        <div id="banner-fundo"></div>
+        <div class="detalhes-container">
+
+            <img id="imagem">
+
+            <div class="detalhes-info">
+                <h2 id="titulo"></h2>
+                <p id="descricao"></p>
+                <div class="detalhes-botoes">
+                    <button onclick="fecharDetalhes()">Voltar</button>
+
+
+                    <button id="btnfavorito" onclick="favoritar()">⭐Favoritar</button>
+
+                    <select id="status" onchange="salvarStatus()">
+                        <option value="">Sem status</option>
+                        <option value="jogando">🎮 Jogando</option>
+                        <option value="concluido">✅ Concluído</option>
+                        <option value="dropado">❌ Dropado</option>
+                        <option value="planejando">📅 Planejando</option>
+                        <option value="platinado">🏆 Platinado</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <main id="conteudo">
+
+        <div id="favoritos">
+
+            <h2>⭐ Favoritos</h2>
+
+            <div class="lista" id="lista-favoritos"></div>
+        </div>
+
+        <div class="categorias-container" id="categorias">
+            <div id="games" class="categoria">
+
+                <div class="categoria-topo">
+
+                    <h2>🎮 Games</h2>
+
+                    <div class="categoria-acoes">
+
+                        <button onclick="toggleCategoria('games')">🔽</button>
+
+                        <button onclick="ordenarCategoria('games', 'az')">
+                            A-Z
+                        </button>
+
+                    </div>
+
+                </div>
+                <div class="lista">
+                    <div class="card add-card" onclick="abrirFormulario()">
+                        <div class="add-content">
+                            <span>+</span>
+                            <p>Adicionar</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div id="filmes" class="categoria">
+
+                <div class="categoria-topo">
+
+                    <h2>🎬 Filmes</h2>
+
+                    <div class="categoria-acoes">
+
+                        <button onclick="ordenarCategoria('filmes', 'az')">
+                            A-Z
+                        </button>
+                        <button onclick="toggleCategoria('filmes')">🔽</button>
+
+                    </div>
+                </div>
+
+                <div class="lista">
+                    <div class="card add-card" onclick="abrirFormulario()">
+                        <div class="add-content">
+                            <span>+</span>
+                            <p>Adicionar</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="series" class="categoria">
+                <div class="categoria-topo">
+
+                    <h2>🎞️ Séries</h2>
+
+                    <div class="categoria-acoes">
+                        <button onclick="ordenarCategoria('series', 'az')">
+                            A-Z
+                        </button>
+                        <button onclick="toggleCategoria('series')">🔽</button>
+                    </div>
+                </div>
+                <div class="lista">
+                    <div class="card add-card" onclick="abrirFormulario()">
+                        <div class="add-content">
+                            <span>+</span>
+                            <p>Adicionar</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div id="livros" class="categoria">
+                <div class="categoria-topo">
+
+                    <h2>📚 Livros</h2>
+
+                    <div class="categoria-acoes">
+
+                        <button onclick="ordenarCategoria('livros', 'az')">
+                            A-Z
+                        </button>
+                        <button onclick="toggleCategoria('livros')">🔽</button>
+
+                    </div>
+                </div>
+                <div class="lista">
+                    <div class="card add-card" onclick="abrirFormulario()">
+                        <div class="add-content">
+                            <span>+</span>
+                            <p>Adicionar</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-content">
+
+            <h3>HgS Library</h3>
+
+            <p>
+                Sua biblioteca pessoal de games, filmes, séries e livros.
+            </p>
+
+            <div class="footer-links">
+                <a href="#" onclick="mostrar('games'); return false;">Games</a>
+                <a href="#" onclick="mostrar('filmes'); return false;">Filmes</a>
+                <a href="#" onclick="mostrar('series'); return false;">Séries</a>
+                <a href="#" onclick="mostrar('livros'); return false;">Livros</a>
+            </div>
+
+            <span>
+                © 2026 HgS Library — Todos os direitos reservados
+            </span>
+
+        </div>
+    </footer>
+    <div id="overlay-form" style="display: none;">
+
+        <div class="form-container">
+
+            <h2>Novo Card</h2>
+
+            <input type="text" id="novoTitulo" placeholder="Título">
+
+            <input type="text" id="novaImagem" placeholder="Imagem-URL">
+
+            <textarea id="novaDescricao" placeholder="Descrição"></textarea>
+
+            <select id="novaCategoria">
+                <option value="games">Games</option>
+                <option value="filmes">Filmes</option>
+                <option value="series">Séries</option>
+                <option value="livros">Livros</option>
+            </select>
+
+            <div class="form-botoes">
+
+                <button onclick="criarCard()">
+                    Adicionar
+                </button>
+
+                <button onclick="fecharFormulario()">
+                    Cancelar
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div id="modal-confirmacao">
+
+        <div class="modal-box">
+
+            <h2>⚠ Confirmar remoção</h2>
+
+            <p>
+                Tem certeza que deseja remover este card?
+            </p>
+
+            <div class="modal-botoes">
+                <button id="cancelar-remocao">
+                    Cancelar
+                </button>
+                <button id="confirmar-remocao">
+                    Remover
+                </button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="data/jogos.js"></script>
+<script src="home.js"></script>
+<script src="data/database.js"></script>
+</html>
