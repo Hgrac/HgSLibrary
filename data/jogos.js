@@ -4,31 +4,31 @@ var jogos = {
         titulo: "Celeste",
         categoria: "games",
         descricao: "Celeste é um aclamado jogo indie de plataforma de 2018 que narra a jornada de Madeline, uma jovem que decide escalar a perigosa e mística Montanha Celeste para superar seus demônios interiores, ansiedade e depressão. O jogo foca em resiliência, aceitação e autoconhecimento, com a montanha refletindo os conflitos emocionais da protagonista.",
-        imagem: "assets/Celeste.png",
+        imagem: "assets/celeste.png",
     },
     hollowknight: {
         titulo: "Hollow Knight",
         categoria: "games",
         descricao: "Hollow Knight é um aclamado jogo indie Metroidvania 2D onde você controla um pequeno cavaleiro inseto explorando o reino subterrâneo arruinado de Hallownest. O objetivo é combater uma infecção que enlouqueceu os habitantes, explorando um vasto mundo, ganhando habilidades e desvendando a história trágica de um deus esquecido, a Radiância, e do Rei Pálido.",
-        imagem: "assets/HollowKnight.webp"
+        imagem: "assets/hollowknight.webp"
     },
     cuphead: {
         titulo: "Cuphead",
         categoria: "games",
         descricao: "Cuphead é um jogo de ação run and gun (corra e atire) focado em batalhas contra chefões, famoso por seu estilo visual desenhado à mão inspirado nos desenhos animados da década de 1930. A história segue os irmãos Cuphead (Xicrinho) e Mugman (Caneco), que apostam suas almas com o Diabo e precisam coletar contratos de outros devedores para salvar suas vidas.",
-        imagem: "assets/Cuphead.jpg"
+        imagem: "assets/cuphead.jpg"
     },
     counterstrike2: {
         titulo: "Counter-Strike 2",
         categoria: "games",
         descricao: "Counter-Strike 2 (CS2) é a atualização gratuita e definitiva do CS:GO, lançada pela Valve em setembro de 2023, que substituiu o título anterior. Baseado na engine Source 2, o jogo traz gráficos aprimorados, servidores de sub-tick mais responsivos, smokes volumétricas 3D que reagem ao ambiente e uma jogabilidade tática 5v5 refinada.",
-        imagem: "assets/Cs2.webp"
+        imagem: "assets/cs2.webp"
     },
     moonlighter: {
         titulo: "Moonlighter",
         categoria: "games",
         descricao: "Moonlighter é um RPG de ação com elementos rogue-lite e simulação, onde você controla Will, um lojista de dia e aventureiro de masmorras à noite. O objetivo é explorar calabouços gerados proceduralmente para coletar tesouros, gerenciando o inventário limitado e definindo os preços dos itens na sua loja para melhorar equipamentos e avançar.",
-        imagem: "assets/Moonlighter.jpg"
+        imagem: "assets/moonlighter.jpg"
     },
     nimbus: {
         titulo: "Nimbus",
@@ -101,7 +101,7 @@ var jogos = {
         titulo: "Left 4 Dead 2",
         categoria: "games",
         descricao:"Left 4 Dead 2 é um jogo de tiro cooperativo de zumbis em primeira pessoa, ambientado no sul dos EUA durante um apocalipse provocado pelo Green Flu. Quatro novos sobreviventes (Coach, Ellis, Nick, Rochelle) lutam de Savannah a Nova Orleães, enfrentando hordas e infectados especiais com armas de fogo e corpo a corpo.",
-        imagem: "assets/Left4Dead2.jpg",
+        imagem: "assets/left4dead2.jpg",
     },
 
     lifeisstrange: {
@@ -157,12 +157,6 @@ var jogos = {
     //BANCO FILMES
     //BANCO FILMES
     //BANCO FILMES
-    jogadornumero1: {
-        titulo: "Jogador Número 1",
-        categoria: "filmes",
-        descricao:"Jogador Nº 1 (2018), dirigido por Steven Spielberg, é um filme de ficção científica distópica ambientado em 2045, onde a humanidade vive no OASIS, um universo virtual. Após a morte de seu criador, Wade Watts (Parzival) busca um Easter Egg oculto que dará ao vencedor a fortuna e o controle do sistema, enfrentando a corporação IOI que quer dominar o mundo virtual",
-        imagem: "assets/Jogador1.jpg",
-    },
 
     jogadornumero1: {
         titulo: "Jogador Número 1",
