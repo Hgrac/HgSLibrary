@@ -22,7 +22,7 @@ var jogos = {
         titulo: "Counter-Strike 2",
         categoria: "games",
         descricao: "Counter-Strike 2 (CS2) é a atualização gratuita e definitiva do CS:GO, lançada pela Valve em setembro de 2023, que substituiu o título anterior. Baseado na engine Source 2, o jogo traz gráficos aprimorados, servidores de sub-tick mais responsivos, smokes volumétricas 3D que reagem ao ambiente e uma jogabilidade tática 5v5 refinada.",
-        imagem: "assets/CS2.webp"
+        imagem: "assets/Cs2.webp"
     },
     moonlighter: {
         titulo: "Moonlighter",
@@ -40,37 +40,37 @@ var jogos = {
         titulo: "Portal",
         categoria: "games",
         descricao: "Portal é um aclamado jogo de quebra-cabeça em primeira pessoa (FPS) desenvolvido pela Valve Corporation em 2007, revolucionário por sua mecânica baseada em portais.",
-        imagem: "assets/Portal1.jpg"
+        imagem: "assets/portal1.jpg"
     },
     portal2: {
         titulo: "Portal 2",
         categoria: "games",
         descricao: "Portal 2 (2011) é um aclamado jogo de quebra-cabeça em primeira pessoa desenvolvido pela Valve, onde o jogador usa a Portal Gun para criar portais e resolver desafios físicos em um laboratório abandonado. A trama segue Chell, que retorna à Aperture Science, agora em ruínas, para enfrentar a IA GLaDOS e o ingênuo robô Wheatley em uma aventura com humor ácido.",
-        imagem: "assets/Portal2.jpg"
+        imagem: "assets/portal2.jpg"
     },
     portalrevolution: {
         titulo: "Portal Revolution",
         categoria: "games",
         descricao: "Portal: Revolution é um mod comunitário de Portal 2 extremamente aclamado, lançado em janeiro de 2024, que funciona como uma expansão não oficial, mas aprovada pela Valve. Desenvolvido pela Second Face Software, o jogo é gratuito para quem já possui Portal 2 na Steam.",
-        imagem: "assets/PortalRev.jpg"
+        imagem: "assets/portalrev.jpg"
     },
     awayout: {
         titulo: "A Way Out",
         categoria: "games",
         descricao: "A Way Out é um jogo de aventura cooperativa (obrigatório para dois jogadores) que narra a fuga da prisão e a busca por vingança de dois protagonistas, Leo e Vincent. Lançado em 2018, o título foca na colaboração para superar obstáculos e segue uma narrativa cinematográfica focada na relação entre os dois.",
-        imagem: "assets/AWayOut.avif"
+        imagem: "assets/awayout.avif"
     },
     ittakestwo: {
         titulo: "It Takes Two",
         categoria: "games",
         descricao: "It Takes Two é um jogo de plataforma e aventura cooperativo focado na história de Cody e May, um casal em crise prestes a se divorciar. Transformados em bonecos pela filha, Rose, eles devem trabalhar juntos em desafios criativos para salvar seu relacionamento e voltar a ser humanos.",
-        imagem: "assets/ItTakesTwo.webp"
+        imagem: "assets/ittakestwo.webp"
     },
     theroom: {
         titulo: "The Room",
         categoria: "games",
         descricao: "The Room é uma aclamada série de jogos de quebra-cabeça (puzzle) e mistério, desenvolvida pela Fireproof Games, conhecida por sua atmosfera imersiva, gráficos detalhados e enigmas táteis.",
-        imagem: "assets/TheRoom.png"
+        imagem: "assets/theroom.png"
     },
     brothers: {
         titulo: "Brother - A Tale of Two Sons",
@@ -101,7 +101,7 @@ var jogos = {
         titulo: "Left 4 Dead 2",
         categoria: "games",
         descricao:"Left 4 Dead 2 é um jogo de tiro cooperativo de zumbis em primeira pessoa, ambientado no sul dos EUA durante um apocalipse provocado pelo Green Flu. Quatro novos sobreviventes (Coach, Ellis, Nick, Rochelle) lutam de Savannah a Nova Orleães, enfrentando hordas e infectados especiais com armas de fogo e corpo a corpo.",
-        imagem: "assets/left4dead2.jpg",
+        imagem: "assets/Left4Dead2.jpg",
     },
 
     lifeisstrange: {
@@ -161,7 +161,7 @@ var jogos = {
         titulo: "Jogador Número 1",
         categoria: "filmes",
         descricao:"Jogador Nº 1 (2018), dirigido por Steven Spielberg, é um filme de ficção científica distópica ambientado em 2045, onde a humanidade vive no OASIS, um universo virtual. Após a morte de seu criador, Wade Watts (Parzival) busca um Easter Egg oculto que dará ao vencedor a fortuna e o controle do sistema, enfrentando a corporação IOI que quer dominar o mundo virtual",
-        imagem: "assets/jogador1.jpg",
+        imagem: "assets/Jogador1.jpg",
     },
 
     jogadornumero1: {
